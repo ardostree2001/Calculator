@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/Ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input"
+        android:textColor="#A828A8"
+        android:textSize="40sp"
+        app:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:hint="@string/preview"
+        android:textColor="#DEDEDE"
+        android:textSize="40sp"
+        app:fontFamily="sans-serif-medium" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/btnDel"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="135dp"
+            android:layout_height="60dp"
+            android:text="@string/delete"
+            android:textColor="@color/textButton" />
+
+        <Button
+            android:id="@+id/btnC"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="129dp"
+            android:layout_height="60dp"
+            android:text="@string/clear"
+            android:textColor="@color/textButton" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="128dp"
+            android:layout_height="60dp"
+            android:text="@string/add"
+            android:textColor="@color/symbolButton" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/btn7"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/_7"
+            android:textColor="@color/numButton" />
+
+        <Button
+            android:id="@+id/btn8"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/_8"
+            android:textColor="@color/numButton" />
+
+        <Button
+            android:id="@+id/btn9"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/_9"
+            android:textColor="@color/numButton" />
+
+        <Button
+            android:id="@+id/btnSub"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="128dp"
+            android:layout_height="60dp"
+            android:text="@string/sub"
+            android:textColor="@color/symbolButton" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/_4"
+            android:textColor="@color/numButton" />
+
+        <Button
+            android:id="@+id/btn5"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/_5"
+            android:textColor="@color/numButton" />
+
+        <Button
+            android:id="@+id/btn6"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/_6"
+            android:textColor="@color/numButton" />
+
+        <Button
+            android:id="@+id/btnMul"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="128dp"
+            android:layout_height="60dp"
+            android:text="@string/mul"
+            android:textColor="@color/symbolButton" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/_1"
+            android:textColor="@color/numButton" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/_2"
+            android:textColor="@color/numButton" />
+
+        <Button
+            android:id="@+id/btn3"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/_3"
+            android:textColor="@color/numButton" />
+
+        <Button
+            android:id="@+id/btnDiv"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="128dp"
+            android:layout_height="60dp"
+            android:text="@string/div"
+            android:textColor="@color/symbolButton" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn0"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/_0"
+            android:textColor="@color/numButton" />
+
+        <Button
+            android:id="@+id/btnDec"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/decimal"
+            android:textColor="@color/symbolButton" />
+
+        <Button
+            android:id="@+id/btnEqual"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="216dp"
+            android:layout_height="60dp"
+            android:text="@string/equal"
+            android:textColor="@color/equalButton" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
